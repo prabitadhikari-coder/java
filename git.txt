@@ -1,0 +1,6 @@
+git init
+git add chatbot.py
+git commit -m "first commit"
+git branch -M main
+git remote add origin https://github.com/prabitadhikari-coder/AI-Chatbot.git
+git push -u origin main
