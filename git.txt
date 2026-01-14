@@ -1,6 +1,14 @@
+<<<<<<< HEAD
 git init
 git add chatbot.py
 git commit -m "first commit"
 git branch -M main
 git remote add origin https://github.com/prabitadhikari-coder/AI-Chatbot.git
+=======
+git init
+git add chatbot.py
+git commit -m "first commit"
+git branch -M main
+git remote add origin https://github.com/prabitadhikari-coder/AI-Chatbot.git
+>>>>>>> db46910c9ff0fdd884085bffa8da2f467365c6e3
 git push -u origin main
