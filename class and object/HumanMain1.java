@@ -20,6 +20,7 @@ class Human
 		System.out.println("human can dance..");
 	}
 }
+@SuppressWarnings("unused")
 class HumanMain1{
 	public static void main(String... args)
 	{

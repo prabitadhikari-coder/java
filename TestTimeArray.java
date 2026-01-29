@@ -1,4 +1,7 @@
 // TestTimeArray.java
+
+import java.sql.Time;
+
 public class TestTimeArray {
     public static void main(String[] args) {
         // Create an array to store 5 Time objects
@@ -8,7 +11,7 @@ public class TestTimeArray {
         
         for (int i = 0; i < timeArray.length; i++) {
             // Create a new Time object
-            timeArray[i] = new Time();
+            timeArray[i] = new Time(i);
             
             // Display the time
             System.out.println("Time " + (i + 1) + ": " + timeArray[i].toString());

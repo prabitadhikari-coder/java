@@ -2,6 +2,7 @@ class Human {
 	static String name = "Dikshita";
 	String color = "WHite";
 	int height = 5, leg, hand;
+        @SuppressWarnings("unused")
 	static String college = "Lbef college";
 
 	void walk() {
@@ -22,6 +23,7 @@ class Human {
 	}
 }
 
+@SuppressWarnings("unused")
 class HumanStaticMain {
 	public static void main(String... args) {
 		Human h1 = new Human();
@@ -30,5 +32,10 @@ class HumanStaticMain {
 		h1.walk();
 		Human.eat();
 		// Human.sleep();
+	}
+
+	@Override
+	public String toString() {
+		return "HumanStaticMain []";
 	}
 }

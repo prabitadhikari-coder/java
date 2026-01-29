@@ -11,7 +11,7 @@ class LogicalOp
 		 IO.println((b>a) && (b>c));
 		 System.out.println(!((c>a) && (c>b)));
 		 
-		 IO.println();
+		 IO.println(false);
 		 char l='b';
 		 IO.println(l=='a'||l=='e'||l=='o'||l=='i'||l=='u');
 		 

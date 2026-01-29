@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+
 class PrimitiveDataTypeExample {
 	public static void main(String args[]) {
 		byte b = 120;
@@ -24,8 +24,9 @@ class PrimitiveDataTypeExample {
 		System.out.println("boolean: " + b2);
 		System.out.println("Char: " + c);
 	}
-=======
-class PrimitiveDataTypeExample {
+
+        @SuppressWarnings("unused")
+class PrimitiveDataType {
 	public static void main(String args[]) {
 		byte b = 120;
 		short s = 120;
@@ -50,5 +51,5 @@ class PrimitiveDataTypeExample {
 		System.out.println("boolean: " + b2);
 		System.out.println("Char: " + c);
 	}
->>>>>>> db46910c9ff0fdd884085bffa8da2f467365c6e3
-}
+
+}}
